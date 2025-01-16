@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:/Users/Dell/Downloads/music/music.css">
+    <script src="https://kit.fontawesome.com/31669305fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="musicPlayer">
+        <nav>
+            <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <img src="C:/Users/Dell/Pictures/Screenshots/thumb.png" class="songImg">
+        <h1>Kissik</h1>
+        <p>Subhlshini</p>
+        <audio controls id="song"> 
+            <source src="C:/Users/Dell/Downloads/Thumbnail.mp3" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" id="progress">
+        <div class="controls">
+            <div><i class="fa-solid fa-backward"></i></div>
+            <div onclick="playPause()"><i class="fa-solid fa-play" id="controlIcon"></i></div>
+            <div><i class="fa-solid fa-forward"></i></div>
+        </div>
+    </div>
+    </div>
+    <script src="C:/Users/Dell/Downloads/music/music.js"></script>
+</body>
+</html>
